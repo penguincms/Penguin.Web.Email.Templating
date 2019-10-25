@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Web.Email.Templating</name>
+        <name>Penguin.Web.Email.Templating.Local</name>
     </assembly>
     <members>
         <member name="T:Penguin.Web.Email.Templating.EmailTemplateRenderer">
