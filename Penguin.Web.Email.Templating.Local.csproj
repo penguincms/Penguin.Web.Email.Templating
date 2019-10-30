@@ -5,17 +5,19 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.Email.Templating</PackageProjectUrl>
     <Version>1.0.0</Version>
     <Description>Not Available</Description>
+    <AssemblyName>Penguin.Web.Email.Templating</AssemblyName>
+    <RootNamespace>Penguin.Web.Email.Templating</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj" />
-    <ProjectReference Include="..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj" />
     <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Web.Mvc.Abstractions\Penguin.Web.Mvc.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Web.Templating\Penguin.Web.Templating.Local.csproj" />
-    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj" />
-    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj" />
-    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj" />
   </ItemGroup>
 </Project>
