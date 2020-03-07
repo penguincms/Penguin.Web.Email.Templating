@@ -27,7 +27,7 @@ namespace Penguin.Web.Email.Templating
         /// <param name="hostingEnvironment">An instance of a hosting environment for template generation</param>
         public EmailTemplateRenderer(IViewRenderService viewRenderService, IHostingEnvironment hostingEnvironment) : base(hostingEnvironment)
         {
-            ViewRenderService = viewRenderService;
+            this.ViewRenderService = viewRenderService;
         }
 
         /// <summary>
