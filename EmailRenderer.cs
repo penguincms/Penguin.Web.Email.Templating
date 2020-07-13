@@ -39,7 +39,10 @@ namespace Penguin.Web.Email.Templating
         /// <returns>The Html contents of the post-bound template field</returns>
         public string RenderEmail(IEnumerable<TemplateParameter> SourceValues, IEmailTemplate Template, PropertyInfo Field)
         {
-            Contract.Requires(Field != null);
+            if (Field is null)
+            {
+                throw new System.ArgumentNullException(nameof(Field));
+            }
 
             string Body = Field.GetValue(Template)?.ToString();
 
