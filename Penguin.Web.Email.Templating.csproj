@@ -10,9 +10,9 @@
     <DocumentationFile>Penguin.Web.Email.Templating.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.0.1-TA29PDE" />
-    <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.0.1-TA29PDE" />
-    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.1-TA29PDE" />
-    <PackageReference Include="Penguin.Web.Templating" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.0.1-TA29X8Y" />
+    <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.0.1-TA29X8Y" />
+    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.1-TA29X8Y" />
+    <PackageReference Include="Penguin.Web.Templating" Version="5.0.1-TA29X8Y" />
   </ItemGroup>
 </Project>
