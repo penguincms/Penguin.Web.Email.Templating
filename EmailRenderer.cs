@@ -6,7 +6,6 @@ using Penguin.Templating.Abstractions;
 using Penguin.Web.Mvc.Abstractions;
 using Penguin.Web.Templating;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Reflection;
 using System.Threading.Tasks;
 
