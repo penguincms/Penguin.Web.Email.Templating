@@ -13,6 +13,6 @@
     <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.0.2-TA9KKLU" />
     <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.0.2-TA9KKLU" />
     <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.2-TA9KKLU" />
-    <PackageReference Include="Penguin.Web.Templating" Version="5.0.2-TAA4YFP" />
+    <PackageReference Include="Penguin.Web.Templating" Version="5.0.2-TABDXT3" />
   </ItemGroup>
 </Project>
