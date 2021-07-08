@@ -2,7 +2,7 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.Email.Templating</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Web.Email.Templating</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Web.Email.Templating</AssemblyName>
@@ -10,9 +10,9 @@
     <DocumentationFile>Penguin.Web.Email.Templating.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.0.4" />
-    <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.0.4" />
-    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.4" />
-    <PackageReference Include="Penguin.Web.Templating" Version="5.0.6-TAEO1KM" />
+    <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Web.Templating" Version="5.0.6-TAHULSY" />
   </ItemGroup>
 </Project>
