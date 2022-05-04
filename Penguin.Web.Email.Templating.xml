@@ -9,7 +9,7 @@
             An email template binder/renderer that uses the MVC view engine to allow for C# based email templating
             </summary>
         </member>
-        <member name="M:Penguin.Web.Email.Templating.EmailTemplateRenderer.#ctor(Penguin.Web.Mvc.Abstractions.IViewRenderService,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+        <member name="M:Penguin.Web.Email.Templating.EmailTemplateRenderer.#ctor(Penguin.Web.Mvc.Abstractions.Interfaces.IViewRenderService,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
             <summary>
             Constructs a new instance of this templating engine
             </summary>

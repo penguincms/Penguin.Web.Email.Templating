@@ -3,7 +3,7 @@ using Penguin.DependencyInjection.Abstractions.Attributes;
 using Penguin.DependencyInjection.Abstractions.Enums;
 using Penguin.Email.Templating.Abstractions.Interfaces;
 using Penguin.Templating.Abstractions;
-using Penguin.Web.Mvc.Abstractions;
+using Penguin.Web.Mvc.Abstractions.Interfaces;
 using Penguin.Web.Templating;
 using System.Collections.Generic;
 using System.Reflection;
