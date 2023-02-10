@@ -20,7 +20,7 @@
             <summary>
             Takes information required by the email template and attempts to return bound HTML representing the provided field
             </summary>
-            <param name="SourceValues">A collection of object names and values to be passed into the template</param>
+            <param name="Parameters">A collection of object names and values to be passed into the template</param>
             <param name="Template">The template to use for generation</param>
             <param name="Field">The field/property on the email template that this call is binding (in case its not the body)</param>
             <returns>The Html contents of the post-bound template field</returns>

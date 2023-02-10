@@ -26,17 +26,17 @@ namespace Penguin.Web.Email.Templating
         /// <param name="hostingEnvironment">An instance of a hosting environment for template generation</param>
         public EmailTemplateRenderer(IViewRenderService viewRenderService, IHostingEnvironment hostingEnvironment) : base(hostingEnvironment)
         {
-            this.ViewRenderService = viewRenderService;
+            ViewRenderService = viewRenderService;
         }
 
         /// <summary>
         /// Takes information required by the email template and attempts to return bound HTML representing the provided field
         /// </summary>
-        /// <param name="SourceValues">A collection of object names and values to be passed into the template</param>
+        /// <param name="Parameters">A collection of object names and values to be passed into the template</param>
         /// <param name="Template">The template to use for generation</param>
         /// <param name="Field">The field/property on the email template that this call is binding (in case its not the body)</param>
         /// <returns>The Html contents of the post-bound template field</returns>
-        public string RenderEmail(IEnumerable<TemplateParameter> SourceValues, IEmailTemplate Template, PropertyInfo Field)
+        public string RenderEmail(IEnumerable<TemplateParameter> Parameters, IEmailTemplate Template, PropertyInfo Field)
         {
             if (Field is null)
             {
@@ -48,9 +48,9 @@ namespace Penguin.Web.Email.Templating
             if (string.IsNullOrWhiteSpace(Body))
             { return Body; }
 
-            GeneratedTemplateInfo info = base.GenerateTemplatePath(Template, SourceValues, Body, Field.Name);
+            GeneratedTemplateInfo info = base.GenerateTemplatePath(Template, Parameters, Body, Field.Name);
 
-            Task<string> renderTask = this.ViewRenderService.RenderToStringAsync(info.RelativePath, info.AbsolutePath.Replace(info.RelativePath, ""), info.Model, true);
+            Task<string> renderTask = ViewRenderService.RenderToStringAsync(info.RelativePath, info.AbsolutePath.Replace(info.RelativePath, ""), info.Model, true);
 
             renderTask.Wait();
 
