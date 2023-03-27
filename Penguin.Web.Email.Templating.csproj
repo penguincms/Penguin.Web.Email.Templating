@@ -11,9 +11,9 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.2.0" />
-    <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.2.0" />
-    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.2.0" />
-    <PackageReference Include="Penguin.Web.Templating" Version="5.2.0" />
+    <PackageReference Include="Penguin.Web.Mvc.Abstractions" Version="5.4.0" />
+    <PackageReference Include="Penguin.DependencyInjection.Abstractions" Version="5.4.0" />
+    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.4.0" />
+    <PackageReference Include="Penguin.Web.Templating" Version="5.4.0" />
   </ItemGroup>
 </Project>
